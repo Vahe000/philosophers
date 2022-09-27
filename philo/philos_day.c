@@ -6,7 +6,7 @@
 /*   By: vasargsy <vasargsy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/30 11:31:00 by vasargsy          #+#    #+#             */
-/*   Updated: 2022/09/26 13:58:54 by vasargsy         ###   ########.fr       */
+/*   Updated: 2022/09/27 15:13:14 by vasargsy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,8 +29,7 @@ void	print_action(char *str, t_philo *p)
 {
 	pthread_mutex_lock(p->write);
 	printf("%llu\t%d\t%s\n", now() - p->time_create, p->index + 1, str);
-	if (str[0] != 'D')
-		pthread_mutex_unlock(p->write);
+	pthread_mutex_unlock(p->write);
 }
 
 static void	philo_takes_fork(t_philo *p)
