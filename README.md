@@ -1,5 +1,9 @@
 # Philosophers
 
+<p align="center">
+  <img src="https://github.com/mcombeau/mcombeau/blob/main/42_badges/philosopherse.png"/>
+</p>
+
 ## Grade: 100/100
 
 ### Installing and running the project:
@@ -7,7 +11,7 @@
 1- Clone this repository
 	
 	git clone https://github.com/Kuninoto/philosophers
-3- Navigate to _lvl_3_philosophers_ and run `make`
+3- Navigate philosophers_ and run `make`
 	
 	cd philosophers/philo
    	make
