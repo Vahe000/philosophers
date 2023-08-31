@@ -10,7 +10,7 @@
 
 1- Clone this repository
 	
-	git clone https://github.com/Kuninoto/philosophers
+	https://github.com/Vahe000/philosophers.git
 3- Navigate philosophers_ and run `make`
 	
 	cd philosophers/philo
